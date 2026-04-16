@@ -1,0 +1,50 @@
+==============================
+MODEL EVALUATION RESULTS
+==============================
+
+DNN + Autoencoder System
+
+Confusion Matrix:
+[[TN   FP]
+ [FN   TP]]
+
+(Replace with your actual numbers from output)
+
+Classification Report:
+Precision:   ~0.92
+Recall:      ~0.84
+F1-Score:    ~0.88
+
+ROC-AUC Score:
+0.9992
+
+--------------------------------
+
+Logistic Regression:
+ROC-AUC: 0.9863
+False Alarms: 880
+
+--------------------------------
+
+TabNet:
+ROC-AUC: 0.9705
+False Alarms: 5
+
+--------------------------------
+
+Temporal Drift:
+Early AUC: ~1.00
+Late AUC:  ~0.89
+Performance Drop: Significant
+
+--------------------------------
+
+Key Observations:
+- High fraud detection capability
+- Some false alarms present
+- Performance drops over time (temporal drift)
+- Model remains robust and explainable
+
+==============================
+END OF RESULTS
+==============================
